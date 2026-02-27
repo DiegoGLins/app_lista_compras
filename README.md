@@ -1,16 +1,67 @@
-# app_lista_compras
+📱 App Lista de Compras
 
-A new Flutter project.
+Aplicativo mobile desenvolvido em Flutter para gerenciamento de listas de compras, permitindo adicionar produtos, marcar itens como concluídos e acompanhar o progresso da lista de forma visual.
 
-## Getting Started
+🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+✅ Criar múltiplas listas de compras
 
-A few resources to get you started if this is your first Flutter project:
+➕ Adicionar produtos com nome e valor
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✔️ Marcar e desmarcar itens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📊 Barra de progresso automática baseada nos itens marcados
+
+💰 Cálculo dinâmico de valores:
+
+Total de itens marcados
+
+Total de itens não marcados
+
+🔄 Atualização controlada da lista apenas ao clicar em Atualizar
+
+🧠 Controle de estado temporário para evitar alterações não confirmadas
+
+🛠 Tecnologias utilizadas
+
+Flutter
+
+Dart
+
+Material Design
+
+Gerenciamento de estado com setState
+
+Navegação com Navigator
+
+Estrutura baseada em Models (BuyListModel, ProductModel)
+
+📂 Estrutura do Projeto
+lib/
+ ├── data/
+ │    └── app_data.dart
+ ├── model/
+ │    ├── buyList.model.dart
+ │    └── product.model.dart
+ ├── pages/
+ │    ├── home_buy_list.dart
+ │    ├── detail_buyList.page.dart
+ │    ├── add_ListBuy.page.dart
+ │    └── add_product.dart
+
+
+🧠 Conceitos aplicados
+
+Este projeto aplica conceitos importantes de desenvolvimento mobile:
+
+Separação entre estado persistido e estado temporário
+
+Controle manual de atualização de dados
+
+Navegação entre telas com retorno de resultado
+
+Manipulação de listas dinâmicas
+
+Cálculo de dados derivados (progresso e totais)
+
+Validação de formulários
