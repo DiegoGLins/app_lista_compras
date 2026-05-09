@@ -1,4 +1,4 @@
-import 'package:app_lista_compras/pages/home_buy_list.dart';
+import 'package:app_lista_compras/pages/add_product_in_List.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomeBuyList(),
+      home: AddProductInList(),
     );
   }
 }

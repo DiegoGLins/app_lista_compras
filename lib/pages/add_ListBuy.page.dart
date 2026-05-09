@@ -1,6 +1,6 @@
 import 'package:app_lista_compras/data/app_data.dart';
 import 'package:app_lista_compras/model/buyList.model.dart';
-import 'package:app_lista_compras/pages/home_buy_list.dart';
+import 'package:app_lista_compras/pages/add_product_in_List.dart';
 import 'package:flutter/material.dart';
 
 class AddListBuy extends StatefulWidget {
@@ -42,7 +42,7 @@ class _AddListBuyState extends State<AddListBuy> {
     nameListController.clear();
     Navigator.of(
       context,
-    ).push(MaterialPageRoute(builder: (context) => HomeBuyList()));
+    ).push(MaterialPageRoute(builder: (context) => AddProductInList()));
   }
 
   @override
@@ -97,7 +97,7 @@ class _AddListBuyState extends State<AddListBuy> {
                         onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: (context) => HomeBuyList(),
+                              builder: (context) => AddProductInList(),
                             ),
                           );
                         },

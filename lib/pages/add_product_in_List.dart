@@ -3,14 +3,14 @@ import 'package:app_lista_compras/pages/add_ListBuy.page.dart';
 import 'package:app_lista_compras/pages/detail_buyList.page.dart';
 import 'package:flutter/material.dart';
 
-class HomeBuyList extends StatefulWidget {
-  const HomeBuyList({super.key});
+class AddProductInList extends StatefulWidget {
+  const AddProductInList({super.key});
 
   @override
-  State<HomeBuyList> createState() => _HomeBuyListState();
+  State<AddProductInList> createState() => _AddProductInListState();
 }
 
-class _HomeBuyListState extends State<HomeBuyList> {
+class _AddProductInListState extends State<AddProductInList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
